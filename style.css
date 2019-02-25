@@ -1,0 +1,93 @@
+
+body{
+    font-family:sans-serif ;
+}
+nav{
+  background-color:  #191528;
+  height: 12%;
+  padding:50px;
+}
+li{
+  font-family: monospace;
+  font-size:22px;
+  color: white;
+  text-align: center;
+}
+ul{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+h1{
+  color:#e54443;
+  font-size: 46px;
+  text-align: center;
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 4%;
+}
+h2{
+  text-align: center;
+  color:#e4eaef;
+}
+p{
+  font-size: 18px;
+  line-height: 30px;
+}
+a{
+  color:#e54443;
+}
+section img{
+  width:300px;
+  padding: 40px;
+  margin-left: 15%;
+}
+footer{
+  background-color: #191528;
+  height: 10%;
+}
+
+/*Identificadores*/
+#seccion_a{
+  background-color: #e4eaef;
+  padding: 2%;
+}
+#seccion_a p{
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+#seccion_b{
+  background-color: #063748;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 50px;
+}
+#seccion_b p{
+  text-align: justify;
+  padding-top: 10%;
+}
+#seccion_c{
+  background-color: #e4eaef;
+  display: grid;
+  grid-template-columns: 35% 35%;
+  grid-gap: 20%;
+  padding-left: 10%;
+}
+#seccion_c p{
+  text-align: center;
+  color:#e4eaef;
+}
+/*Clases*/
+.parrafo_a{
+  color: #e4eaef;
+  text-align: center;
+}
+.contenedor_a{
+  background-color: #3faebf;
+  border-style: solid;
+  border-color: #191528;
+  border-width: 2px;
+  border-radius: 6px;
+  padding: 40px;
+}
